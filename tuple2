@@ -1,0 +1,13 @@
+l1=[(1,'yash',19),(2,'nisha',23),(3,'ramesh',32)]
+r1=[]
+n1=[]
+a1=[]
+for i in l1:
+    rollno=i[0]
+    r1.append(i[0])
+    name=i[1]
+    n1.append(i[1])
+    age=i[2]
+    a1.append(i[2])
+
+print(r1,n1,a1)
