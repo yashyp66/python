@@ -1,10 +1,7 @@
-l1=[( ),(2,3.4,6),("yash",1,11),( )]
-
+l1=[(),(1,'yash'),(),('nisha','ramesh'),(12.4,5),()]
 print(l1)
+print("the list without empty spaces after removing it is : ")
 for i in l1:
-    print(len(i))
     if len(i)==0:
         l1.remove(i)
-    
-
 print(l1)
